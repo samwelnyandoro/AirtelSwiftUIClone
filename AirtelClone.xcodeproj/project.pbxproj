@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7734D3B62C75F25100BE071F /* AirtelCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734D3B52C75F25100BE071F /* AirtelCloneApp.swift */; };
+		7734D3B82C75F25100BE071F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734D3B72C75F25100BE071F /* ContentView.swift */; };
+		7734D3BA2C75F25300BE071F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7734D3B92C75F25300BE071F /* Assets.xcassets */; };
+		7734D3BD2C75F25300BE071F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7734D3BC2C75F25300BE071F /* Preview Assets.xcassets */; };
+		77D532082C75F2E800AA894E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D532072C75F2E800AA894E /* RootView.swift */; };
+		77D5320A2C75F42A00AA894E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D532092C75F42A00AA894E /* Home.swift */; };
+		77D5320E2C765C5200AA894E /* AirtelMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D5320D2C765C5200AA894E /* AirtelMoney.swift */; };
+		77D532102C772E9400AA894E /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D5320F2C772E9400AA894E /* Discover.swift */; };
+		77D532122C77603000AA894E /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D532112C77603000AA894E /* More.swift */; };
+		77D532142C776DB700AA894E /* QRcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D532132C776DB700AA894E /* QRcode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7734D3B22C75F25100BE071F /* AirtelClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirtelClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7734D3B52C75F25100BE071F /* AirtelCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtelCloneApp.swift; sourceTree = "<group>"; };
+		7734D3B72C75F25100BE071F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7734D3B92C75F25300BE071F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7734D3BC2C75F25300BE071F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77D532072C75F2E800AA894E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		77D532092C75F42A00AA894E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		77D5320D2C765C5200AA894E /* AirtelMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtelMoney.swift; sourceTree = "<group>"; };
+		77D5320F2C772E9400AA894E /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		77D532112C77603000AA894E /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		77D532132C776DB700AA894E /* QRcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7734D3AF2C75F25100BE071F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7734D3A92C75F25100BE071F = {
+			isa = PBXGroup;
+			children = (
+				7734D3B42C75F25100BE071F /* AirtelClone */,
+				7734D3B32C75F25100BE071F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7734D3B32C75F25100BE071F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7734D3B22C75F25100BE071F /* AirtelClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7734D3B42C75F25100BE071F /* AirtelClone */ = {
+			isa = PBXGroup;
+			children = (
+				7734D3C32C75F27A00BE071F /* App */,
+				77D532062C75F2E000AA894E /* Root */,
+				7734D3C42C75F28100BE071F /* Core */,
+				7734D3C52C75F28600BE071F /* Extentions */,
+				7734D3C62C75F29200BE071F /* Shared */,
+				7734D3B72C75F25100BE071F /* ContentView.swift */,
+				7734D3B92C75F25300BE071F /* Assets.xcassets */,
+				7734D3BB2C75F25300BE071F /* Preview Content */,
+			);
+			path = AirtelClone;
+			sourceTree = "<group>";
+		};
+		7734D3BB2C75F25300BE071F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7734D3BC2C75F25300BE071F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7734D3C32C75F27A00BE071F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7734D3B52C75F25100BE071F /* AirtelCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7734D3C42C75F28100BE071F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				77D5320B2C765C4300AA894E /* AirtelMoney */,
+				7734D3C72C75F2A300BE071F /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7734D3C52C75F28600BE071F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		7734D3C62C75F29200BE071F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7734D3C72C75F2A300BE071F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				77D532052C75F2D800AA894E /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		77D532052C75F2D800AA894E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77D532092C75F42A00AA894E /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77D532062C75F2E000AA894E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				77D532072C75F2E800AA894E /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		77D5320B2C765C4300AA894E /* AirtelMoney */ = {
+			isa = PBXGroup;
+			children = (
+				77D5320C2C765C4900AA894E /* View */,
+			);
+			path = AirtelMoney;
+			sourceTree = "<group>";
+		};
+		77D5320C2C765C4900AA894E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77D5320D2C765C5200AA894E /* AirtelMoney.swift */,
+				77D5320F2C772E9400AA894E /* Discover.swift */,
+				77D532112C77603000AA894E /* More.swift */,
+				77D532132C776DB700AA894E /* QRcode.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7734D3B12C75F25100BE071F /* AirtelClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7734D3C02C75F25300BE071F /* Build configuration list for PBXNativeTarget "AirtelClone" */;
+			buildPhases = (
+				7734D3AE2C75F25100BE071F /* Sources */,
+				7734D3AF2C75F25100BE071F /* Frameworks */,
+				7734D3B02C75F25100BE071F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirtelClone;
+			productName = AirtelClone;
+			productReference = 7734D3B22C75F25100BE071F /* AirtelClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7734D3AA2C75F25100BE071F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7734D3B12C75F25100BE071F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7734D3AD2C75F25100BE071F /* Build configuration list for PBXProject "AirtelClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7734D3A92C75F25100BE071F;
+			productRefGroup = 7734D3B32C75F25100BE071F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7734D3B12C75F25100BE071F /* AirtelClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7734D3B02C75F25100BE071F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7734D3BD2C75F25300BE071F /* Preview Assets.xcassets in Resources */,
+				7734D3BA2C75F25300BE071F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7734D3AE2C75F25100BE071F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7734D3B82C75F25100BE071F /* ContentView.swift in Sources */,
+				7734D3B62C75F25100BE071F /* AirtelCloneApp.swift in Sources */,
+				77D532102C772E9400AA894E /* Discover.swift in Sources */,
+				77D5320A2C75F42A00AA894E /* Home.swift in Sources */,
+				77D532122C77603000AA894E /* More.swift in Sources */,
+				77D532142C776DB700AA894E /* QRcode.swift in Sources */,
+				77D532082C75F2E800AA894E /* RootView.swift in Sources */,
+				77D5320E2C765C5200AA894E /* AirtelMoney.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7734D3BE2C75F25300BE071F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7734D3BF2C75F25300BE071F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7734D3C12C75F25300BE071F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirtelClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 648U26QNYT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirtelClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7734D3C22C75F25300BE071F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirtelClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 648U26QNYT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirtelClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7734D3AD2C75F25100BE071F /* Build configuration list for PBXProject "AirtelClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7734D3BE2C75F25300BE071F /* Debug */,
+				7734D3BF2C75F25300BE071F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7734D3C02C75F25300BE071F /* Build configuration list for PBXNativeTarget "AirtelClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7734D3C12C75F25300BE071F /* Debug */,
+				7734D3C22C75F25300BE071F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7734D3AA2C75F25100BE071F /* Project object */;
+}
