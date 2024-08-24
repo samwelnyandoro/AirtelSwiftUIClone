@@ -355,7 +355,6 @@ extension Home {
                     .font(.headline)
                 }
             
-            
             RoundedRectangle(cornerRadius: 10)
                 .fill(.green)
                 .frame(width: 190, height: 70)
