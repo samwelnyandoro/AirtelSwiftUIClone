@@ -64,7 +64,7 @@ extension Home {
                 .resizable()
                 .frame(width: 40, height: 50)
             
-            Text("Aritel")
+            Text("Airtel")
                 .fontWeight(.semibold)
                 .font(.title)
                 .fontDesign(.serif)
